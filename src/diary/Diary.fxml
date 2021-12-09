@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="638.0" style="-fx-background-color: #bfbdbd;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="638.0" layoutX="46.0" layoutY="178.0" opacity="0.73" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../../../Pictures/wp3087382-spider-man-into-the-spider-verse-wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="71.0" layoutY="4.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <Text layoutX="-25.0" layoutY="185.0" rotate="-90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Diary">
+         <font>
+            <Font name="Bernard MT Condensed" size="58.0" />
+         </font>
+      </Text>
+      <HBox layoutY="5.0" prefHeight="36.0" prefWidth="69.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" style="-fx-background-color: #02f477;" text="Open">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Circle fill="DODGERBLUE" layoutX="-10.0" layoutY="392.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: red;" />
+      <Circle fill="DODGERBLUE" layoutX="27.0" layoutY="413.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: green;" />
+      <Circle fill="DODGERBLUE" layoutX="-10.0" layoutY="325.0" radius="44.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: yellow;" />
+      <Circle fill="DODGERBLUE" layoutX="14.0" layoutY="281.0" radius="44.0" stroke="#4b7dda" strokeType="INSIDE" style="-fx-fill: pink;" />
+   </children>
+</AnchorPane>
